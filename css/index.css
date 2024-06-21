@@ -69,3 +69,27 @@ li,a,button {
     color: antiquewhite;
     text-decoration: none;
 }
+
+.homepic {
+    width: 1400px;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.headintro {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: antiquewhite;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.viewmore {
+    color:black;
+    background-color: antiquewhite;
+    align-items: center;
+    margin: auto;
+}
