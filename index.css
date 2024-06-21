@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.headdiv {
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 400px;
+
+}
+
+.headPart {
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin-left: 150px;
+}
