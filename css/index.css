@@ -133,3 +133,15 @@ body {
     margin-bottom: 0px;
     width: 300px;
 }
+
+.p2 {
+    color:grey;
+    font-size: 11px;
+    padding-top: 1px;
+    /* padding-left: 40px; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 300px;
+}
