@@ -71,8 +71,8 @@ li,a,button {
 }
 
 .homepic {
-    width: 1400px;
-    height: 500px;
+    width: 1440px;
+    /* height: 500px; */
     object-fit: cover;
 
 }
