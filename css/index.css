@@ -90,6 +90,12 @@ li,a,button {
 .viewmore {
     color:black;
     background-color: antiquewhite;
-    align-items: center;
-    margin: auto;
+    justify-content: space-around;
+    height: 30px;
+    font-weight: 700px;
+}
+
+.bt1 {
+    margin-left: 630px;
+    max-width: 630px;
 }
