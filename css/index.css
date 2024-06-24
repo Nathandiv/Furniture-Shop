@@ -158,3 +158,11 @@ body {
     margin-right: 0px;
     width: 300px;
 }
+
+
+.homepic2 {
+    width: 1440px;
+    height: 580px;
+    object-fit: cover;
+
+}
