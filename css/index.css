@@ -99,3 +99,20 @@ li,a,button {
     margin-left: 630px;
     max-width: 630px;
 }
+
+body {
+    background-color: black;
+}
+
+.Flexbox{
+    /* display: grid; */
+    /* grid-template-columns: 240px 240px 240px 240px; */
+    justify-content:center;
+    /* gap: 5px; */
+    display: flex;
+    margin-right:auto;
+    margin-left: auto;
+    max-width: 1300px;
+    /* max-height: 350px; */
+    
+}
