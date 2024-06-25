@@ -93,11 +93,15 @@ li,a,button {
     justify-content: space-around;
     height: 30px;
     font-weight: 700px;
+    /* text-align: center; */
+    
 }
 
 .bt1 {
-    margin-left: 630px;
-    max-width: 630px;
+    /* margin-left: 630px; */
+    text-align: center;
+    border: solid red;
+    
 }
 
 body {
@@ -113,12 +117,14 @@ body {
     margin-right:auto;
     margin-left: auto;
     max-width: 1300px;
+    border: solid yellow;
     /* max-height: 350px; */
     
 }
 
 .coco-1 {
     margin-right: auto;cursor: pointer;
+    border: solid green;
 }
 
 .coco {
@@ -164,5 +170,6 @@ body {
     width: 1440px;
     height: 580px;
     object-fit: cover;
+    border: solid blueviolet;
 
 }
