@@ -117,8 +117,11 @@ body {
     margin-right:auto;
     margin-left: auto;
     max-width: 1300px;
+    text-align: center;
     border: solid yellow;
     /* max-height: 350px; */
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     
 }
 
