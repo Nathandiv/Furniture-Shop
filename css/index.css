@@ -7,12 +7,12 @@ body{
     max-width: 1500px;
 }
 
-header{
+/* header{
     display: flex;
     justify-content:space-between;
     align-items: center;
     padding: 30px 10px;
-}
+} */
 
 .headdiv {
 
@@ -20,6 +20,14 @@ header{
     justify-content:space-between;
     align-items: center;
     gap: 400px;
+    position: fixed;
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 1500px;
+    top: 0;
+    border: solid red;
+    background-color: black;
+
 
 }
 
