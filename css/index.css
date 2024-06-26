@@ -144,7 +144,7 @@ body {
 }
 
 .p1 {
-    color: white;
+    color: antiquewhite;
     font-size: 12px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -184,3 +184,84 @@ body {
     border: solid blueviolet;
 
 }
+.footimg {
+    width: 150px;
+    height: 15px;
+    margin-left: -65px;
+   
+}
+
+
+
+footer {
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
+}
+
+.footer-content {
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.contactD {
+    
+    border: solid orange;
+    
+
+}
+
+.adres {
+    text-align: center;
+   
+  
+    border: solid orange;
+
+}
+
+.phone {
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 30px;
+   
+   
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.email {
+    text-align: center;
+    margin-top: -20px;
+   
+   
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.p4 {
+    text-align: center;
+    
+}
+
+.p5 {
+
+    padding-bottom: -10px;
+
+}
+
