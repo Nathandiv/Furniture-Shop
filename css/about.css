@@ -77,3 +77,10 @@ li,a,button {
     color: antiquewhite;
     text-decoration: none;
 }
+
+.homepic {
+    width: 1440px;
+    height: 400px;
+    object-fit: cover;
+
+}
