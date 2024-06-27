@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    max-width: 1500px;
+}
+
+/* header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 10px;
+} */
+
+.headdiv {
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 400px;
+    position: fixed;
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 1500px;
+    top: 0;
+    /* border: solid red; */
+    background-color: black;
+
+
+}
+
+.headPart {
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin-left: 150px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.ckName {
+    color: antiquewhite;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* margin-left: -650px; */
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+.leftpart {
+    flex: 1;
+}
+
+.nav-links:hover{
+    text-decoration: underline;
+
+    list-style: none;
+   
+}
+.leftpart nav ul li a:hover {
+    text-decoration: underline;
+}
+.nav-links li {
+    
+    display: inline-block;
+    padding: 0px 20px;
+}
+li,a,button {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.homepic {
+    width: 1440px;
+    /* height: 500px; */
+    object-fit: cover;
+
+}
+
+.headintro {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: antiquewhite;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.viewmore {
+    color:black;
+    background-color: antiquewhite;
+    justify-content: space-around;
+    height: 30px;
+    font-weight: 700px;
+    /* text-align: center; */
+    
+}
+
+.bt1 {
+    /* margin-left: 630px; */
+    text-align: center;
+    /* border: solid red; */
+    
+}
+
+body {
+    background-color: black;
+}
+
+.Flexbox{
+    /* display: grid; */
+    /* grid-template-columns: 240px 240px 240px 240px; */
+    justify-content:center;
+    /* gap: 5px; */
+    display: flex;
+    margin-right:auto;
+    margin-left: auto;
+    max-width: 1300px;
+    text-align: center;
+    /* border: solid yellow; */
+    /* max-height: 350px; */
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
+}
+
+.coco-1 {
+    margin-right: auto;cursor: pointer;
+    /* border: solid green; */
+}
+
+.coco {
+    width: 300px;
+    height: 200px;
+}
+
+.p1 {
+    color: antiquewhite;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 300px;
+}
+
+.p2 {
+    color:grey;
+    font-size: 11px;
+    padding-top: 1px;
+    /* padding-left: 40px; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 300px;
+}
+
+
+.p3 {
+    color:grey;
+    font-size: 11px;
+    padding-top: 1px;
+    /* padding-left: 40px; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 300px;
+}
+
+
+.homepic2 {
+    width: 1440px;
+    height: 580px;
+    object-fit: cover;
+    /* border: solid blueviolet; */
+
+}
+.footimg {
+    width: 150px;
+    height: 15px;
+    margin-left: -65px;
+   
+}
+
+
+
+footer {
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
+}
+
+.footer-content {
+    margin: 0 auto;
+    font-size: 11px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.contactD {
+    
+    /* border: solid orange; */
+    
+
+}
+
+.adres {
+    text-align: center;
+   font-size: 13px;
+  
+    /* border: solid orange; */
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.phone {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-size: 13px;
+
+   
+   
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.email {
+    text-align: center;
+    margin-top: -20px;
+    font-size: 13px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.p4 {
+    text-align: center;
+    /* margin-bottom: -10px; */
+    
+}
+
+.p5 {
+    margin-top: -15px;
+
+    /* padding-bottom: -10px; */
+    
+
+}
+
+.p6 {
+    margin-top: -15px;
+}
+
+.p7 {
+    margin-top: -15px;
+}
+
+.p9{
+    /* margin-left: 30px; */
+}
+
+
+.firstp{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* .contactg {
+    width: 5px;
+    height: 5px;
+} */

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    max-width: 1500px;
+}
+
+/* header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 10px;
+} */
+
+.headdiv {
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 400px;
+    position: fixed;
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 1500px;
+    top: 0;
+    border: solid red;
+    background-color: black;
+
+
+}
+
+.headPart {
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin-left: 150px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.ckName {
+    color: antiquewhite;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* margin-left: -650px; */
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+.leftpart {
+    flex: 1;
+}
+
+.nav-links:hover{
+    text-decoration: underline;
+
+    list-style: none;
+   
+}
+.leftpart nav ul li a:hover {
+    text-decoration: underline;
+}
+.nav-links li {
+    
+    display: inline-block;
+    padding: 0px 20px;
+}
+li,a,button {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: antiquewhite;
+    text-decoration: none;
+}
